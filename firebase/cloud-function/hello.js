@@ -13,6 +13,12 @@ const adminFireStore = adminFirebase.firestore();
 // Storage
 const adminStorage = adminFirebase.storage().bucket();
 
+// For Firestore
+const increment = (value) =>
+  adminFirebase.firestore.FieldValue.increment(value);
+
+const serverTime = adminFirebase.firestore.FieldValue.serverTimestamp();
+
 ////////// FirebaseAdmin END //////////
 
 exports.handler = async (req, res) => {
