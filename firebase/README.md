@@ -1,0 +1,1 @@
+This is the snippet for Firebase v9 / Firebase admin v2 (Cloud Function)
