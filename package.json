@@ -1,0 +1,24 @@
+{
+  "name": "webdev-snippet",
+  "version": "1.0.0",
+  "description": "Simplified your web app dev with this snippet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsw85/webdev-snippet.git"
+  },
+  "keywords": [
+    "webapp",
+    "webappdevv",
+    "snippet"
+  ],
+  "author": "Goh S.W.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gsw85/webdev-snippet/issues"
+  },
+  "homepage": "https://github.com/gsw85/webdev-snippet#readme"
+}
