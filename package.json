@@ -53,6 +53,12 @@
     ]
   },
   "react-dotenv": {
-    "whitelist": ["EXPOSE_API"]
+    "whitelist": ["NEXT_PUBLIC_FIRE_APIKEY",
+                  "NEXT_PUBLIC_FIRE_AUTHDOMAIN",
+                  "NEXT_PUBLIC_FIRE_PROJECTID",
+                  "NEXT_PUBLIC_FIRE_STORAGEBUCKET",
+                  "NEXT_PUBLIC_FIRE_MESSAGINGSENDERID",
+                  "NEXT_PUBLIC_FIRE_APPID",
+                  "NEXT_PUBLIC_FIRE_ANALYTICS_ID"]
   }
 }
