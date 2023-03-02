@@ -51,6 +51,13 @@ async function fireMergeDoc() {
   }
 }
 
+// delete specified ID
+async function fireSetDoc() {
+  await adminFireStore.collection("testing").doc("test2").delete();
+
+  return "delete test2";
+}
+
 // Incremental the value
 async function fireIncreaseNumber() {
   try {
